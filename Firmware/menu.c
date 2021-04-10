@@ -55,7 +55,7 @@ typedef struct {
 static const cliprange_t clipranges[] = {
   [ VALTYPE_BOOL ]         = {    0,     1 },
   [ VALTYPE_EVENODD ]      = {    0,     1 },
-  [ VALTYPE_ANALOGMODE ]   = {    0,     2 },
+  [ VALTYPE_ANALOGMODE ]   = {    0,     3 },
   [ VALTYPE_BYTE ]         = {    0,   255 },
   [ VALTYPE_SBYTE_99 ]     = {   -99,   99 },
   [ VALTYPE_SBYTE_127 ]    = {  -128,  127 },
@@ -204,6 +204,10 @@ static void print_value(menu_t *menu, unsigned int itemnum) {
 
     case 1:
       osd_puts("  RGB");
+      break;
+          
+    case 3:
+      osd_puts("  BRG");
       break;
 
     default:
