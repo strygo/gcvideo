@@ -38,7 +38,7 @@
 typedef enum {
   VALTYPE_BOOL,         // 0, 1
   VALTYPE_EVENODD,      // 0, 1 shown as Even, Odd
-  VALTYPE_ANALOGMODE,   // 0 to 2 shown as YPbPr, RGB, RGsB
+  VALTYPE_ANALOGMODE,   // 0 to 3 shown as YPbPr, RGB, RGsB, BRG
   VALTYPE_BYTE,         // 0 to 255
   VALTYPE_SBYTE_99,     // -99 to 99
   VALTYPE_SBYTE_127,    // -128 to 127
