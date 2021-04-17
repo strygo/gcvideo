@@ -25,12 +25,4 @@ VERSION=`make printversion`
 
 mkdir -p binaries
 
-build p2xh-gc
-build p2xh-wii
-build shuriken-gc
-build shuriken-wii
-build shuriken-v3-gc
-build shuriken-v3-wii
-build dual-gc
 build dual-wii
-build gcplug
