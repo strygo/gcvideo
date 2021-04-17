@@ -80,8 +80,8 @@ else ifeq ($(TARGET),dual-gc)
   BOARD    := dualgc
   CONSOLE  := GC
 else ifeq ($(TARGET),dual-wii)
-  # WIID
-  HWID     := 0x57494944
+  # DK07
+  HWID     := 0x444b3037
   TOPLEVEL := toplevel_wiidual
   BOARD    := dualwii
   CONSOLE  := WII
